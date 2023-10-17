@@ -1,0 +1,2702 @@
+/* Google Fonts */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Abel);
+
+/* !RESTELEME  */
+*
+{
+  box-sizing: border-box;
+
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: roboto,sans-serif;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    /* eklediğim divlerin alt alta gelmesi için*/
+
+    
+}
+/* ! Genel işlemler */
+.trncText
+{
+  color: #FE9810;
+}
+.btn-bg
+{
+    background-color: #FE9810;
+    color: #ffff;
+}
+.bg-color
+{
+  background-color: #f0f0e9;
+}
+.icon_color
+{
+    color: #696763;
+}
+li 
+{
+    list-style-type: none;
+    
+}
+a
+{
+    text-decoration: none;
+}
+.menu-active
+{
+    color: #FE9810;
+}
+.menu-active:hover
+{
+    color: #FE9810;
+}
+
+/* !scroll app */
+
+#back-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 7px;
+    right: 12px;
+    font-size: 20px;
+    background-color: #fe980f;
+    color: #fff;
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    animation: scroll 2s ease infinite;
+}
+
+#back-to-top-btn:hover {
+    background-color: #dd9e29;
+}
+
+@keyframes scroll {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+
+
+
+/*! menü-1 */
+
+.menu-1 ul li a 
+{
+    font-size: 12px;
+    color: #696763;
+}
+.icons-1 ul li a
+{
+    font-size: 16px;
+    color: #696763;
+
+}
+.icons-1 ul li a i
+{
+    padding-top: 10px;
+
+}
+
+.icons-1 ul li .facebook:hover
+{
+    background-color: #487aaa;
+    color: white;
+    text-align: center;
+
+}
+.icons-1 ul li .twitter:hover
+{
+    background-color: #1da1f2;
+    color: white;
+    text-align: center;
+}
+.icons-1 ul li .linkedin:hover
+{
+    background-color: #ff4518;
+    color: white;
+    text-align: center;
+}
+.icons-1 ul li .dribble:hover
+{
+    background-color: #90c9dc;
+    color: white;
+    text-align: center;
+    
+}
+.icons-1 ul li .google:hover
+{
+    background-color: #d25245;
+    color: white;
+    text-align: center;
+    
+}
+.icons-1 ul li a
+{
+    transition: all .9s ease 0s;
+    padding: 18px 15px;
+}
+
+
+/* ! menü-2 */
+
+.icons ul li a {
+    font-size: 14px;
+    color: #696763;
+    padding-left:30px;
+}
+.icons ul li a:hover
+{
+    color: #FE9810;
+}
+.dropdown-menu li a
+{ 
+ color: black;
+}
+/* !  menü-3 */
+form i
+{
+    color: #b2b2b2;
+}
+form ::placeholder
+{
+    font-size: 12px;
+}
+
+.search-form 
+{
+    width: 170px;
+}
+.dropdown-hover li a:hover
+{
+    background-color: #FE9810;
+   
+}
+.search-form span {
+    background-color: #f0f0e9;
+}
+/* ! slider */
+
+.contents h1
+
+{
+  color: #b4b1ab;
+  font-size: 48px;
+ 
+}
+.contents h1 span
+
+{
+  color: #FE9810;
+}
+
+.contents .buttons
+
+{
+  background-color: #FE9810;
+  color: white;
+
+}
+.center
+{
+    margin-left: 150px;
+}
+.center img
+{
+    width: 75%;
+}
+
+/* ! cards accordion */
+
+       /* acordion içini açma */
+       .accordion {
+        background-color: white;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+      }
+      .accordion-footer
+      {
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+      }
+      
+      
+      
+      .accordion-in {
+        padding: 0 18px;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+      }
+      .accordion:after {
+        content: '+'; /*(+) */
+        font-weight: 900;
+        font-size: 17px;
+        color: #777;
+        float: right;
+        margin-left: 5px;
+      }
+      
+     .accordion.active:after {
+        content: "x"; /*(-) */
+        font-weight: 900;
+        font-size: 17px;
+        color: #777;
+      }
+      .acordion-container  button
+      {
+        margin-bottom: -10px;
+      }
+      .acordion-container .accordion-footer
+      {
+        margin-top: -15px;
+      }
+
+    /* ! index cards */
+    .a-left {
+
+        font-size: 10px;
+    }
+
+    .a-left a {
+        color: #696763;
+    }
+
+    .a-left a:hover {
+        color: #FE9810;
+    }
+
+    .a-right {
+
+        font-size: 10px;
+    }
+
+    .a-right a {
+        color: #696763;
+    }
+
+    .a-right a:hover {
+        color: #FE9810;
+    }
+
+    .buttons button:hover
+    {
+        color: #FE9810;
+    }
+    .hizala
+    {
+        position: relative;
+    }
+    .index-card-button
+    {
+        position: absolute;
+        top: 60%;
+        left:15px;
+    }
+    /* ! Cards başlıkları */
+    .title-category {
+        position: relative;
+        color: #fe980f;
+    }
+
+    .title-category::before,
+    .title-category::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 28%;
+        border-bottom: 2px solid #f0f0ea;
+    
+    }
+
+    .title-category::before {
+        right: 68%;
+        margin-right: 10px;
+    }
+
+    .title-category::after {
+        left: 72%;
+        margin-right: 10px;
+    }
+
+    .title-features {
+        position: relative;
+        color: #fe980f;
+    }
+
+    .title-features::before,
+    .title-features::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 36%;
+        border-bottom: 2px solid #f0f0ea;
+    }
+
+    .title-features::before {
+        right: 63%;
+        margin-right: 10px;
+    }
+
+    .title-features::after {
+        left: 64%;
+        margin-right: 10px;
+    }
+
+    /* Add to Cart button hover */
+    .card-button:hover
+    {
+        background-color: #FE9810;
+        color: white;
+    }
+    /* ----------------------- */
+
+    /*! Wishlist */
+    .reklam-1
+    {
+        width: 91%;
+        position: relative;
+        left: 45px; 
+    }
+    .card-button
+    {
+        position: relative;
+        left: 35px;
+    }
+    .card-item
+    {
+        width: 32%;
+    }
+    .reklam-2-dıs
+    {
+        width: 100%;
+        margin-top: 40px;
+        overflow: hidden;
+        padding-top: 20px;
+        position: relative;
+    }
+
+
+
+    /* ----------------------- */
+
+    /*! Contact */
+
+    .btn-boyut
+    {
+        width:11%;
+        height: 31px;
+        font-size: 14px;
+        
+    }
+
+    form input:hover
+    {
+        border-color:#FE9810;
+        
+    }
+    form textarea:hover
+    {
+        border-color:#FE9810;
+    }
+    form ::placeholder
+    {
+    font-size: 16px;
+    color: #c7c7c7;
+    }
+    .information p
+    {
+    color: #787672;
+    }
+    .social ul
+    {
+        margin-left: 55px;
+    }
+    .social ul li a i
+    {
+        color: #999;
+        font-size: 25px;
+        padding-inline: 5px; 
+
+    }
+    .social ul li a i:hover
+    {
+        color: #FE9810;
+
+    }
+    .hover:hover
+    {
+        background-color: #FE9810;
+        color: white;
+    }
+
+
+    /* ! CONTACT BAŞLIKLAR */
+
+
+    /* ? başlık 1 */
+
+    .title-touch {
+        position: relative;
+        color: #fe980f;
+    }
+
+    .title-touch::before,
+    .title-touch::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 36%;
+        border-bottom: 2px solid #f0f0ea;
+    }
+
+    .title-touch::before {
+        right: 63%;
+        margin-right: 10px;
+    }
+
+    .title-touch::after {
+        left: 64%;
+        margin-right: 10px;
+    }
+
+    /* ? başlık-2 */
+    .title-info {
+        position: relative;
+        color: #fe980f;
+    }
+
+    .title-info::before,
+    .title-info::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 20%;
+        border-bottom: 2px solid #f0f0ea;
+    
+    }
+
+    .title-info::before {
+        right: 77%;
+        margin-right: 10px;
+    }
+
+    .title-info::after {
+        left: 74%;
+        margin-right: 10px;
+    }
+
+    /* ? başlık 3 */
+    .title-social {
+        position: relative;
+        color: #fe980f;
+    }
+
+    .title-social::before,
+    .title-social::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 20%;
+        border-bottom: 2px solid #f0f0ea;
+    
+    }
+
+    .title-social::before {
+        right: 77%;
+        margin-right: 10px;
+    }
+
+    .title-social::after {
+        left: 74%;
+        margin-right: 10px;
+    }
+
+
+
+    /* ----------------------- */
+
+
+    /*! login */
+
+    .submit
+    {
+        width: 25%;
+        height: 33px;
+        padding-bottom: 25px;
+        
+    }
+    .submit:hover
+    {
+        background-color:#ebebeb;
+    }
+    form fieldset div input::placeholder
+    {
+        font-size: 14px;
+        color: #696763;
+    }
+    form legend
+    {
+        color: #696763;
+        font-size: 18px;
+        font-family: open ,sans-serif;
+    }
+    .login
+    {
+        margin-top: 200px;
+        margin-bottom: 100px;
+        
+    }
+    .or
+    {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #FE9810;
+        color: #ffff;
+        padding-top:13px ;
+        font-size: 20px;
+    }
+
+    .login .container .row .login-form-1 form fieldset .mb-3 button
+    {
+        width: 40%;
+    }
+    .login .container .row .login-form-2 form fieldset  button
+    {
+        width: 40%;
+    }
+
+    /* --------------------- */
+    /* Shopping cart */
+    /* shopping cart 1. kısım */
+    .table-1 {
+        background-color: #fe980f;
+        color: #f0f0e9;
+    }
+
+    .card-text1 h4 {
+        color: #363432;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .card-text1 p {
+        color: #696763;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .cart-button a {
+        background-color: #f0f0e9;
+        color: #696763;
+        
+    }
+    .icons-2
+    {
+        color: #fe980f;
+        font-size: 24px;
+    }
+    .icons-2 i {
+        background-color: #f0f0e9;
+        color: #fff;
+        padding: 5px 7px;
+        font-size: 17px;
+    }
+
+    .icons-2 i:hover {
+        background-color: #fe980f;
+    }
+    /* shopping cart 2.kısım */
+
+    .card-button-2 a
+    {
+        width: 20%;
+        height: 33px;
+        background-color: #FE9810;
+        color: #ffff;
+    }
+    .card-button-2 a:hover
+    {
+        background-color: #f0f0ea;
+    }
+    .card-button-3 .update
+    {
+        margin-left: 6%;
+    }
+    .card-button-3 a
+    {
+        width: 20%;
+        height: 33px;
+        background-color: #FE9810;
+        color: #ffff;
+        
+    }
+    .card-button-3 a:hover
+    {
+        background-color: #f0f0ea;
+    }
+    .card-content-2
+    {
+        width: 46%;
+    }
+    .card-content-2 ul li
+    {
+        background-color: #e6e4df;
+    }
+    .card-content-2 span
+    {
+    float:right;
+    color: #696763;
+    font-size: 14px;
+    }
+    .card-content-2 li
+    {
+
+    color: #696763;
+    font-size: 14px;
+    }
+    .card-select .select
+    {
+        width: 150px;
+        background-color: #f0f0ea;
+        color: #696763;
+    }
+    .card-select select option
+    {
+        color: #696763;
+    }
+    .cart-up
+    {
+        padding: 6px 12px;
+        background-color: #f0f0e9;
+        margin-right: 4px;
+    }
+    .cart-down
+    {
+        padding: 6px 15px;
+        background-color: #f0f0e9;
+    }
+    .cart-input 
+    {
+        width: 40px;
+    }
+    .card-button
+    {
+        background-color: #f0f0e9;
+    }
+    /*! footer */
+
+    .footer {
+        background-color: #f0f0e9;
+        position: relative;
+    }
+
+    /* footer 1 */
+
+    .footer-1 h2 {
+        font-size: 14px;
+        color: #8c8c88;
+
+    }
+
+    .title h2 span {
+        color: #fe980f;
+        font-size: 27px;
+    }
+
+    .title h2 {
+        font-size: 27px;
+        font-weight: 300;
+    }
+
+    .footer-1 p {
+        font-size: 12px;
+        color: #8c8c88;
+        font-weight: 500;
+        margin: 0 0 0.5px;
+    }
+
+    .footer-1 .col-7 h2 {
+        color: #8c8c88;
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    .address {
+        position: relative;
+    }
+
+    .address img {
+        width: 100%;
+        vertical-align: middle;
+        /* css'de dikey ortalama yapmak için kullanılır. */
+    }
+
+    .address p {
+        color: #666663;
+        font-family: roboto, sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        left: 25px;
+        position: absolute;
+        top: 50px;
+    }
+
+
+    /* footer orta */
+
+    .footer-2 a {
+        text-decoration: none;
+        color: #8c8c88;
+    }
+
+    .footer-2 h2 {
+        font-size: 12px;
+        font-weight: 600;
+        color: #666663;
+        margin-bottom: 30px;
+    }
+
+    .search button {
+        background-color: #fe980f;
+        color: white;
+    }
+
+    .search p {
+        color: #8c8c88;
+        font-family: roboto, sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 25px;
+    }
+
+
+    /* !footer son */
+    .footer-bottom {
+        background: #d6d6d0;
+        padding-top: 10px;
+    }
+
+
+    .f-left {
+        float: left;
+    }
+
+    .f-right {
+        float: right;
+    }
+
+
+
+    .footer-bottom p {
+        color: #363432;
+        font-family: roboto, sans-serif;
+        font-size: 14px;
+        font-weight: 200;
+        margin-left: 10px;
+    }
+
+
+    .footer-bottom p span a {
+        color: #fe980f;
+        font-style: italic;
+        text-decoration: underline;
+    }
+
+
+/* ! Responsive */
+@media screen and (max-width:1200px)
+{
+
+/* ! Wishlist reklam-2  */
+
+.reklam-2-dıs img
+{
+    margin: auto 0px 20px -30px;
+}
+
+}
+
+@media screen and (max-width:992px)
+{
+  /* ! CONTACT BAŞLIKLAR */
+/* ? başlık 1 */
+
+.title-touch {
+    position: relative;
+    color: #fe980f;
+
+}
+
+.title-touch::before,
+.title-touch::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 25%;
+    border-bottom: 2px solid #f0f0ea;
+}
+
+.title-touch::before {
+    right: 70%;
+    margin-right: 10px;
+}
+
+.title-touch::after {
+    left: 75%;
+    margin-right: 10px;
+}
+/* ? başlık-2 */
+.title-social {
+    position: relative;
+    color: #fe980f;
+    width: 50%;
+    left: 20%;
+    
+}
+
+.title-social::before,
+.title-social::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 30%;
+    border-bottom: 2px solid #f0f0ea;
+  
+}
+
+.title-social::before {
+    right: 110%;
+    margin-right: 10px;
+}
+
+.title-social::after {
+    left: 115%;
+    margin-right: 10px;
+}
+
+
+.contact-1 form button
+{
+    width: 20%;
+}
+
+.card-content-2
+{
+    width: 100%;
+    
+}
+
+/* ! Wishlist reklam-2  */
+
+.reklam-2-dıs img
+{
+    margin: auto 0px 20px 230px;
+}
+
+}
+  
+@media screen and (max-width:768px)  {
+    /* !menü 1 */
+ 
+    .header-bas .menu-1 {
+        width: 65%;
+    }
+    .header-bas .menu-1  ul li a{
+      font-size:12px;
+           
+    }
+    .header-bas .menu-1-yan{
+        width: 35%;
+        font-size: 9px;
+    }
+   
+    .header-bas .menu-1-yan .icons-1 ul li a i{
+        font-size:14px;
+        padding-top: 15px;
+        
+    }
+      /* ! menü 2 */
+      .icons ul
+    {
+          position: relative;
+          right: 15px;
+    }
+    /* ! wishlist reklam-1 */
+    .reklam-1
+    {
+        width: 91%;
+        position: relative;
+        left: 20px; 
+
+    }
+
+    /* ! Wishlist reklam-2  */
+
+    .reklam-2-dıs img
+    {
+        margin: auto 0px 30px 130px;
+    }
+
+    /* !login */
+    .or
+    {
+        margin-bottom: 45px;
+    }
+
+    /* ! contact */
+    .contact-1 form button
+    {
+        width: 40%;
+    }
+
+    /* ! shopping cart */
+   
+    .card-text1 h4
+    {
+        font-size: 14px;
+    }
+    .card-text1 p
+    {
+        font-size: 12px;
+    }
+    .card-content-2{
+
+        position: relative;
+        top: 20px;
+    }
+    .card-button-2  .check_out
+    {
+           width: 70%;
+           position: relative;
+           margin-bottom: 10px;
+    }
+
+    .card-button-2  .update
+    {
+           width: 70%;
+           position: relative;
+        
+    }
+   
+    .card-button-3  .update
+    {
+           width: 70%;
+           position: relative;
+           margin-bottom: 10px;
+           left: 3px;
+        
+    }
+    .card-button-3  .check_out
+    {
+           width: 70%;
+           position: relative;
+           left: 30px;
+        
+    }
+  
+    .card-select .zip-code 
+    {
+        position: relative;
+        left: 20px;
+    }
+    
+  
+   
+    .cart-1-dis
+    {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    } 
+    .total
+    {
+        font-size: 17px;
+    }
+    .icons-2 i
+    {
+        font-size: 12px;
+        position: relative;
+        top: -5px;
+    }
+  
+}
+
+@media screen and (max-width:630px)  {
+ 
+    /* ! shopping cart-1 */
+
+    .card-text1 h4
+    {
+        width: 50px;
+    }
+   .card-text1 p
+   {
+    width: 50px;
+   }
+    .cart-1-dis
+    {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    } 
+    .total
+    {
+        font-size: 17px;
+    }
+    .icons-2 i
+    {
+        font-size: 12px;
+        position: relative;
+        top: -5px;
+    }
+  
+}
+
+@media screen and (max-width:576px) {
+    /* !menü 1 */
+    .header-bas .menu-1 {
+       width: 100%;
+       display: block;
+       
+    }
+    .header-bas .menu-1  ul{
+        justify-content: center;
+    }
+    .header-bas .menu-1  ul li a{
+      font-size:12px;
+      padding-inline-start: 13px;
+      
+    }
+    .header-bas .menu-1-yan{
+        width: 100%;
+        display: block;
+    }
+    .header-bas .menu-1-yan .icons-1 ul 
+    {
+        justify-content: center;
+    }
+    .header-bas .menu-1-yan .icons-1 ul li a i{
+        font-size:12px;
+        
+    }
+
+     /* !menü 2 */
+    
+    .header-orta .btn-groups
+    {
+        float: right;
+        position: relative;
+        bottom: 30px;
+    } 
+   
+ 
+    /* ! menü son */
+    .header-son .toggle
+    {
+      width: 64%;
+    }
+    .header-son .search-icon
+    {
+      width: 20%;
+      position: relative;
+      top: 10px;
+    } 
+
+    /* ! slider */
+    .contents
+    
+    {
+        width: 100%;
+    }
+    .contents-1
+    
+    {
+        width: 100%;
+    }
+    .contents-1 img
+    {
+
+        position: relative;
+        right: 50px;
+    }
+
+    /* ! cart-footer */
+
+    .card-footer .a-left
+    {
+       text-align: center;
+       font-size: 13px;
+    }
+    .card-footer .a-left i
+    {
+        margin-right: 5px;
+   
+    }
+    .card-footer .a-right
+    {
+       text-align: center;
+       font-size: 13px;
+    }
+    /* ! index cart-button */
+    .card-button
+    {
+        position: relative;
+        left: 35%;
+    }
+    
+    /* !cart title features */
+
+    .title-features::before,
+    .title-features::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width:25%;
+        border-bottom: 2px solid #f0f0ea;
+    }
+
+    .title-features::before {
+        right: 73%;
+        margin-right: 10px;
+    }
+
+    .title-features::after {
+        left: 75%;
+        margin-right: 10px;
+    }
+    .features-items 
+    {
+        margin-top:5%;
+    }  
+
+    /* ! Contact başlık */
+
+    /* ? başlık 3 */
+    .title-social {
+
+        color: #fe980f;
+        margin: 0 auto 0 auto;
+        position: relative;
+        left:75%;
+        width: 100%;
+
+    }
+
+    .title-social::before,
+    .title-social::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 45%;
+        border-bottom: 2px solid #f0f0ea;
+    
+    }
+
+    .title-social::before {
+        right:95% ;
+        margin-right: 65px;
+    }
+
+    .title-social::after {
+
+        left: 110%;
+        margin-right: 65px;
+    }
+    .social ul  li
+    {
+    margin-left: 10%;
+    }
+    .social ul  li:first-child
+    {
+    margin-left: 70%;
+    }
+    /* !login */
+    .login .container .row .login-form-1 form fieldset .mb-3 button
+    {
+        width: 100%;
+    }
+    .login .container .row .login-form-2 form fieldset  button
+    {
+        width: 100%;
+    }
+
+    /* ! shopping cart-1  */
+  
+    .cart-1-dis
+    {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    } 
+    .total
+    {
+        font-size: 14px;
+    }
+    .icons-2 i
+    {
+        font-size: 10px;
+        position: relative;
+        top: -5px;
+    }
+    .card-text1 h4
+    {
+        width: 50px;
+    }
+    .card-text1 p
+    {
+        width: 50px;
+    }
+    .price
+    {
+        font-size: 14px;
+    }
+    .cart-button-1
+    {
+        position: relative;
+        bottom: 13px;
+    }
+    .cart-button-2
+    {
+        position: relative;
+        top: 10px;
+    }
+    .cart-button-3
+    {
+        position: relative;
+        top: 10px;
+    }
+
+
+    /* ! footer */
+    /* ? footer-1 */
+    .footer-text
+    {
+        margin: 0 auto 0 auto;
+        display: table;
+        /* Dikey ortalama yapmak için display:table,display:table-cell ve veritical-align:middle kullanabiliriz */
+    }
+    .footer-text h2
+    {
+        margin: 0 auto 10px auto;
+        display: table;
+        /* Dikey ortalama yapmak için display:table,display:table-cell ve veritical-align:middle kullanabiliriz */
+    }
+
+    .images .row
+    {
+        margin: 20px auto 0 auto;
+        display:table;
+    }
+    .images .row
+    {
+        margin: 20px auto 0 auto;
+        display:table;
+    }
+    .images .row .images-1 .images-1-1
+    {
+        padding-inline-end:60px;
+    }
+    .images .row .images-2 .images-2-1
+    {
+        padding-inline-end:60px;
+    }
+    .address 
+    {
+        margin: 40px auto 0 auto;
+    }
+
+    /* ? footer-orta */
+    .footer-2 .footer-2-text .footer-2-cols ul
+    {
+        margin: 20px auto 10px auto;
+        display:table;
+        text-align: center;
+
+    }
+    .footer-2 .footer-2-text .footer-2-cols h2
+    {
+        margin: 20px auto 10px auto;
+        display:table;
+        text-align: center;
+        font-size: 17px;
+        
+    }
+    .footer-2 .footer-2-text .footer-2-cols .input-group input
+    {
+        width: 80%;
+    }
+    /* ? footter son */
+    .footer-bottom .container .row .footer-text-bottom-1 .f-left
+    {
+    text-align: center;
+    } 
+
+    .footer-bottom .container .row .footer-text-bottom-2  p.f-right
+    {
+    margin: 20px 95px 20px auto;
+    
+    } 
+
+  
+  
+
+}
+
+@media screen and (max-width:543px) {
+   
+     /* !menü 2 */
+    
+    .header-orta .btn-groups
+    {
+        float: right;
+
+    } 
+
+    /* ! Contact başlık */
+
+    /* ? başlık 3 */
+    .title-social {
+
+        color: #fe980f;
+        margin: 0 auto 0 auto;
+        position: relative;
+        left:75%;
+
+    }
+
+    .title-social::before,
+    .title-social::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 45%;
+        border-bottom: 2px solid #f0f0ea;
+    
+    }
+
+    .title-social::before {
+        right:95% ;
+        margin-right: 60px;
+    }
+
+    .title-social::after {
+
+        left: 100%;
+        margin-right: 60px;
+    }
+    .social ul  li
+    {
+    margin-left: 10%;
+    }
+    .social ul  li:first-child
+    {
+    margin-left: 70%;
+    }
+
+
+    
+    
+}
+
+@media screen and (max-width:539px) {
+   
+   
+    /* ! menü son */
+    .header-son .toggle
+    {
+      width: 64%;
+    }
+    .header-son .search-icon
+    {
+      width: 25%;
+      position: relative;
+      top: 10px;
+    } 
+    
+    /* ! shopping cart-1  */
+  
+    .cart-1-dis
+    {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    } 
+    .total
+    {
+        font-size: 14px;
+    }
+    .icons-2 i
+    {
+        font-size: 10px;
+        position: relative;
+        top: -5px;
+    }
+    .card-text1 h4
+    {
+        display: none;
+    }
+    .card-text1 p
+    {
+        display: none;
+    }
+    .price
+    {
+        font-size: 12px;
+    }
+    .cart-button-1
+    {
+        position: relative;
+        bottom: 13px;
+    }
+    .cart-button-2
+    {
+        position: relative;
+        top: 10px;
+    }
+    .cart-button-3
+    {
+        position: relative;
+        top: 10px;
+    }
+    
+    
+}
+
+@media screen and (max-width:520px) {
+   
+   
+    /* ! menü son */
+    .header-son .toggle
+    {
+      width:62%;
+    }
+    .header-son .search-icon
+    {
+      width: 28%;
+      position: relative;
+      top: 10px;
+    } 
+    /* ! index-slider */
+    .carousel-control-next-icon 
+    {
+        display: none;
+    }
+    .carousel-control-prev-icon 
+    {
+        display: none;
+    }
+   
+    .contents h2
+    
+    {
+        font-size: 23px;
+    }
+
+    /* ! Contact başlık */
+
+    /* ? başlık 3 */
+    .title-social {
+
+        color: #fe980f;
+        margin: 0 auto 0 auto;
+        position: relative;
+        left:70%;
+
+    }
+
+    .title-social::before,
+    .title-social::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 45%;
+        border-bottom: 2px solid #f0f0ea;
+    
+    }
+
+    .title-social::before {
+        right:100% ;
+        margin-right: 55px;
+    }
+
+    .title-social::after {
+
+        left: 90%;
+        margin-right: 55px;
+    }
+    .social ul  li
+    {
+    margin-left: 10%;
+    }
+    .social ul  li:first-child
+    {
+    margin-left: 60%;
+    }
+
+    /* ! Wishlist reklam-2  */
+
+    .reklam-2-dıs img
+    {
+       margin: auto 0px 30px 110px;
+    }
+
+}
+
+@media screen and (max-width:493px) {
+   
+    /* !menü 2 */
+   
+   .icons ul
+   {
+        width: 75%;
+        justify-content: center;
+        position: relative;
+        left: 50px;
+   }
+      /* ! menü son */
+      .header-son .toggle
+      {
+        width: 60%;
+        position: relative;
+
+      }
+      .header-son .search-icon
+      {
+        width: 40%;
+        position: relative;
+        top: 10px;
+      }
+          /* ! index-slider */
+        .carousel-control-prev
+        {
+            display: none;
+        }   
+        .carousel-control-next
+        {
+            display: none;
+        
+        }   
+        
+        .carousel-control-next-icon 
+        {
+            display: none;
+        }
+        .carousel-control-prev-icon 
+        {
+
+        display: none;
+        }
+    
+        .carousel-inner .carousel-item 
+        {
+            margin: auto;
+        }
+        .contents h2
+        
+        {
+            font-size: 23px;
+        
+        }
+
+    
+        .carousel-item .container .row .contents h1
+        {
+            margin: auto 70px 10px -70px;
+
+        
+        }
+        .carousel-item .container .row .contents h2
+        {
+            margin: auto 70px 10px -70px;
+            
+        
+        }
+        .carousel-item .container .row .contents p
+        {
+            margin: auto 70px auto -70px;
+
+        
+        }
+        .carousel-item .container .row .carousel-images img
+        {
+            margin: 20px 60px auto -45px;
+        }
+        /* ! Contact başlık */
+
+        /* ? başlık 3 */
+        .title-social {
+
+            color: #fe980f;
+            margin: 0 auto 0 auto;
+            position: relative;
+            left:50%;
+
+        }
+
+        .title-social::before,
+        .title-social::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 45%;
+            border-bottom: 2px solid #f0f0ea;
+    
+        }
+
+        .title-social::before {
+            right:90% ;
+            margin-right: 35px;
+        }
+
+        .title-social::after {
+
+        left: 90%;
+            margin-right: 35px;
+        }
+        .social ul  li
+        {
+            margin-left: 10%;
+        }  
+        .social ul  li:first-child
+        {
+            margin-left: 30%;
+        }
+
+        /* ! Wishlist reklam-2  */
+
+        .reklam-2-dıs img
+        {
+            margin: auto 0px 30px 100px;
+        }
+
+        /* ! shopping cart-1 */
+        .th-price
+        {
+           display: none;
+        }
+        .price
+        {
+            display: none;
+        }
+}
+
+@media screen and (max-width:470px){
+   
+
+    /* ! menü son */
+    .header-son .toggle
+    {
+      width: 58%;
+    }
+    .header-son .search-icon
+    {
+      width: 20%;
+      position: relative;
+      top: 10px;
+    } 
+   
+    /* ! Contact başlık */
+
+    /* ? başlık 3 */
+    .title-social {
+
+        color: #fe980f;
+        margin: 0 auto 0 auto;
+        position: relative;
+        left:50%;
+
+    }
+
+    .title-social::before,
+    .title-social::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 40%;
+        border-bottom: 2px solid #f0f0ea;
+    
+    }
+
+    .title-social::before {
+        right:105% ;
+        margin-right: 10px;
+    }
+
+    .title-social::after {
+
+        left: 95%;
+        margin-right: 17px;
+    }
+    /* ! shopping cart */
+
+    .card-button-3  .update
+    {
+        width: 70%;
+        position: relative;
+        margin-bottom: 10px;
+            margin-left:  28px;
+        
+    }
+     /* ! Wishlist reklam-2  */
+
+     .reklam-2-dıs img
+     {
+         margin: auto 0px 30px 90px;
+     }
+
+}
+
+@media screen and (max-width:447px){
+    
+
+        /* ! menü son */
+        .header-son .toggle
+        {
+        width: 55%;
+        }
+        .header-son .search-icon
+        {
+        width: 20%;
+        position: relative;
+        top: 10px;
+        }
+
+        /* ! Contact başlık */
+
+        /* ? başlık 3 */
+        .title-social {
+
+            color: #fe980f;
+            margin: 0 auto 0 auto;
+            position: relative;
+            left:45%;
+
+        }
+
+        .title-social::before,
+        .title-social::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 40%;
+            border-bottom: 2px solid #f0f0ea;
+        
+        }
+
+        .title-social::before {
+            right:100% ;
+            margin-right: 10px;
+        }
+
+        .title-social::after {
+
+            left: 85%;
+            margin-right: 17px;
+        }
+
+        /* ! Wishlist reklam-2  */
+
+        .reklam-2-dıs img
+        {
+            margin: auto 0px 30px 70px;
+        }
+        
+        /* ! shopping-cart-1 */
+        table tbody tr th img
+        {
+            width: 50px;
+            height: 100px;
+        }
+}
+
+@media screen and (max-width:420px){
+   
+
+    /* ! menü son */
+    .header-son .toggle
+    {
+      width: 52%;
+    }
+    .header-son .search-icon
+    {
+      width: 20%;
+      position: relative;
+      top: 10px;
+    } 
+    
+    /* ! Contact başlık */
+
+
+
+/* ? başlık 3 */
+.title-social {
+
+    color: #fe980f;
+    margin: 0 auto 0 auto;
+    position: relative;
+    left:45%;
+
+}
+
+.title-social::before,
+.title-social::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 30%;
+    border-bottom: 2px solid #f0f0ea;
+  
+}
+
+.title-social::before {
+    right:105% ;
+    margin-right: 10px;
+}
+
+.title-social::after {
+
+    left: 85%;
+    margin-right: 17px;
+}
+
+}
+
+@media screen and (max-width:402px){
+   
+    /* !menü 2 */
+    
+   .icons ul
+   {
+        width: 100%;
+        justify-content: center;
+        position: relative;
+        left: 0px;
+   }
+    /* ! menü son */
+    .header-son .toggle
+    {
+      width: 50%;
+    }
+    .header-son .search-icon
+    {
+      width: 20%;
+      position: relative;
+      top: 10px;
+    } 
+   /* ! index cart-button */
+   .card-button
+   {
+       position: relative;
+       left: 30%;
+   }
+
+
+    /* ! CONTACT BAŞLIKLAR */
+
+
+    /* ? başlık 1 */
+
+    .title-touch {
+        position: relative;
+        color: #fe980f;
+    }
+
+    .title-touch::before,
+    .title-touch::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 30%;
+        border-bottom: 2px solid #f0f0ea;
+    }
+
+    .title-touch::before {
+        right: 68%;
+        margin-right: 10px;
+    }
+
+    .title-touch::after {
+        left: 68%;
+        margin-right: 10px;
+    }
+    /* ? başlık 3 */
+    .title-social {
+
+        color: #fe980f;
+        margin: 0 auto 0 auto;
+        position: relative;
+        left:35%;
+
+    }
+
+    .title-social::before,
+    .title-social::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 30%;
+        border-bottom: 2px solid #f0f0ea;
+    
+    }
+
+    .title-social::before {
+        right:100% ;
+        margin-right: 10px;
+    }
+
+    .title-social::after {
+
+        left: 90%;
+        margin-right: 17px;
+    }
+
+
+    .social ul  li
+    {
+    margin-left: 10%;
+    }
+    .social ul  li:first-child
+    {
+    margin-left: 1%;
+    }
+    
+    /* ! Wishlist reklam-2  */
+
+    .reklam-2-dıs img
+    {
+        margin: auto 0px 30px 50px;
+    }
+
+}
+
+@media screen and (max-width:379px){
+   
+    /* ! menü son */
+    .header-son .toggle
+    {
+      width: 48%;
+    }
+    .header-son .search-icon
+    {
+      width: 20%;
+      position: relative;
+      top: 10px;
+    }
+      /* ! index-slider */
+      .carousel-control-prev
+      {
+          display: none;
+      }   
+      .carousel-control-next
+      {
+          display: none;
+        
+      }   
+        
+      .carousel-control-next-icon 
+      {
+          display: none;
+      }
+      .carousel-control-prev-icon 
+      {
+  
+         display: none;
+      }
+     
+      .carousel-inner .carousel-item 
+      {
+          margin: auto;
+      }
+      .contents h2
+      
+      {
+          font-size: 23px;
+       
+      }
+  
+    
+      .carousel-item .container .row .contents h1
+      {
+          margin: auto 70px 10px -100px;
+  
+        
+      }
+      .carousel-item .container .row .contents h2
+      {
+          margin: auto 70px 10px -110px;
+          
+        
+      }
+      .carousel-item .container .row .contents p
+      {
+          margin: auto 0px auto -50px;
+          text-align: center;
+          width: 100%;
+  
+        
+      }
+      .carousel-item .container .row .carousel-images img
+      {
+      margin: 20px 60px auto -45px;
+      }
+       
+      /* ! Contact başlık */
+
+        /* ? başlık 3 */
+        .title-social {
+
+            color: #fe980f;
+            margin: 0 auto 0 auto;
+            position: relative;
+            left:28%;
+
+        }
+
+        .title-social::before,
+        .title-social::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 25%;
+            border-bottom: 2px solid #f0f0ea;
+        
+        }
+
+        .title-social::before {
+            right:100% ;
+            margin-right: 10px;
+        }
+
+        .title-social::after {
+
+            left: 90%;
+            margin-right: 17px;
+        }
+        /* ! shopping cart */
+        .card-button-2  .update
+        {
+            width: 80%;
+            position: relative;
+            margin-bottom: 10px; 
+        }
+        .card-button-2  .check_out
+        {
+            width: 80%;
+            position: relative;
+            margin-bottom: 10px; 
+        }
+        .card-button-3  .update
+        {
+            width: 90%;
+            position: relative;
+            margin-bottom: 10px;
+        }
+        .card-button-3  .check_out
+        {
+            width: 90%;
+            position: relative;
+            margin-bottom: 10px;
+        }
+        /* ! Wishlist reklam-2  */
+
+        .reklam-2-dıs img
+        {
+            margin: auto 0px 30px 40px;
+        }
+   
+}
+
+@media screen and (max-width:360px){
+   
+    /* ! menü son */
+    .header-son .toggle
+    {
+      width: 45%;
+    }
+    .header-son .search-icon
+    {
+      width: 20%;
+      position: relative;
+      top: 10px;
+    }
+   
+    /* ! Wishlist reklam-2  */
+
+    .reklam-2-dıs img
+    {
+        margin: auto 0px 30px 30px;
+    }
+}
+
+@media screen and (max-width:341px){
+    /* ! menü-2 */
+   .header-orta .logo
+   {
+    text-align: center;
+    display: block;
+   }
+   .header-orta .btn-groups
+   {
+    position: relative;
+    top: 3px;
+    right: 57px;
+   }
+   .btn-groups
+  {
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+        /* ! menü son*/
+    .header-son .toggle
+    {
+      width: 43%;
+    }
+    .header-son .search-icon
+    {
+      width: 20%;
+      position: relative;
+      top: 10px;
+    } 
+       /* ? footer-1 */
+       .images .row .images-1 .images-1-1
+       {
+           padding-inline-end:20px;
+       }
+       .images .row .images-2 .images-2-1
+       {
+           padding-inline-end:20px;
+       }
+
+       /* ! index-slider */
+      .carousel-control-prev
+      {
+          display: none;
+      }   
+      .carousel-control-next
+      {
+          display: none;
+        
+      }   
+        
+      .carousel-control-next-icon 
+      {
+          display: none;
+      }
+      .carousel-control-prev-icon 
+      {
+  
+         display: none;
+      }
+     
+      .carousel-inner .carousel-item 
+      {
+          margin: auto;
+      }
+      .contents h2
+      
+      {
+          font-size: 23px;
+       
+      }
+  
+    
+      .carousel-item .container .row .contents h1
+      {
+          margin: auto 70px 10px -130px;
+  
+        
+      }
+      .carousel-item .container .row .contents h2
+      {
+          margin: auto 70px 10px -140px;
+          
+        
+      }
+      .carousel-item .container .row .contents p
+      {
+          margin: auto 0px auto -80px;
+          text-align: center;
+          width: 100%;
+  
+        
+      }
+      .carousel-item .container .row .contents button
+      {
+          margin: auto 0px auto -50px;
+          text-align: center;
+     
+  
+        
+      }
+      .carousel-item .container .row .carousel-images img
+      {
+      margin: 20px 60px auto -50px;
+      }
+       /* ! Contact başlık */
+
+        /* ? başlık 3 */
+        .title-social {
+
+            color: #fe980f;
+            margin: 0 auto 0 auto;
+            position: relative;
+            left:22%;
+
+        }
+
+        .title-social::before,
+        .title-social::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 22%;
+            border-bottom: 2px solid #f0f0ea;
+        
+        }
+
+        .title-social::before {
+            right:95% ;
+            margin-right: 10px;
+        }
+
+        .title-social::after {
+
+            left: 90%;
+            margin-right: 17px;
+        }
+
+        .social ul  li
+        {
+        margin-left: 10%;
+        }
+        .social ul  li:first-child
+        {
+        margin-left: -20%;
+        }
+            /* ! Wishlist reklam-2  */
+
+        .reklam-2-dıs img
+        {
+            margin: auto 0px 30px 20px;
+        }
+}
+
+@media screen and (max-width:327px){
+      /* !menü 1 */
+   
+     .header-bas .menu-1 ul
+     {
+        width: 103%;
+        display: block;
+        position: relative;
+        right: 20px;
+     }
+    
+   
+    /* ! menü 2 */
+    .header-orta .logo
+    {
+     text-align: center;
+     display: block;
+    }
+    .header-orta .btn-groups
+    {
+     position: relative; 
+     top: 3px;
+     right: 50px;
+    }
+
+     /* ! menü son*/
+     .header-son .toggle
+     {
+       width: 40%;
+     }
+     .header-son .search-icon
+     {
+       width: 20%;
+       position: relative;
+       top: 10px;
+     } 
+     
+    /* ! Wishlist reklam-2  */
+
+    .reklam-2-dıs img
+    {
+        margin: auto 0px 30px 10px;
+    }
+}
+
+@media screen and (max-width:312px){
+    /* !menü 1 */
+ 
+   .header-bas .menu-1 ul
+   {
+      width: 120%;
+      display: block;
+      position: relative;
+      right: 50px;
+   }
+  
+  /* ! menü 2 */
+  .header-orta .logo
+  {
+   text-align: center;
+   display: block;
+  }
+  .header-orta .btn-groups
+  {
+    position: relative;
+    top: 3px;
+    right:30px;
+    text-align: center;
+  }
+  
+   /* ! menü son*/
+   .header-son .toggle
+   {
+     width: 37%;
+   }
+   .header-son .search-icon
+   {
+     width: 20%;
+     position: relative;
+     top: 10px;
+   } 
+   /* ! index cart-button */
+   .card-button
+   {
+       position: relative;
+       left: 20%;
+   }
+
+       /* ! index-slider */
+       .carousel-control-prev
+       {
+           display: none;
+       }   
+       .carousel-control-next
+       {
+           display: none;
+         
+       }   
+         
+       .carousel-control-next-icon 
+       {
+           display: none;
+       }
+       .carousel-control-prev-icon 
+       {
+   
+          display: none;
+       }
+      
+       .carousel-inner .carousel-item 
+       {
+           margin: auto;
+       }
+    
+     
+       .carousel-item .container .row .contents h1
+       {
+           margin: auto 70px 10px -120px;
+           font-size: 40px;
+   
+         
+       }
+       .carousel-item .container .row .contents h2
+       {
+           margin: auto 70px 10px -120px;
+           width: 80%;
+           text-align: center;
+           
+         
+       }
+             /* ! Contact başlık */
+    /* ? başlık 1 */
+
+    .title-touch {
+        position: relative;
+        color: #fe980f;
+    }
+
+    .title-touch::before,
+    .title-touch::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 25%;
+        border-bottom: 2px solid #f0f0ea;
+    }
+
+    .title-touch::before {
+        right: 70%;
+        margin-right: 10px;
+    }
+
+    .title-touch::after {
+        left: 75%;
+        margin-right: 10px;
+    }
+    /* ? başlık 3 */
+    .title-social {
+
+        color: #fe980f;
+        margin: 0 auto 0 auto;
+        position: relative;
+        left:18%;
+
+    }
+
+    .title-social::before,
+    .title-social::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 20%;
+        border-bottom: 2px solid #f0f0ea;
+    
+    }
+
+    .title-social::before {
+        right:95% ;
+        margin-right: 10px;
+    }
+
+    .title-social::after {
+
+        left: 85%;
+        margin-right: 17px;
+    }
+    
+    .social ul  li
+    {
+        margin-left: 10%;
+    }
+    .social ul  li:first-child
+    {
+        margin-left: -25%;
+    }
+    
+    /* ! Wishlist reklam-2  */
+
+    .reklam-2-dıs img
+    {
+        margin: auto 0px 30px 5px;
+    }
+    /* ! contact submit */
+    .contact-1 form .getInTouch-submit
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:292px){
+ 
+   /* ! menü son */
+   .header-son .toggle
+   {
+     width: 33%;
+   }
+   .header-son .search-icon
+   {
+     width: 20%;
+     position: relative;
+     top: 10px;
+   }
+  
+    /* ! index cart title features */
+
+    .title-features::before,
+    .title-features::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 20%;
+        border-bottom: 2px solid #f0f0ea;
+    }
+
+    .title-features::before {
+        right: 76%;
+        margin-right: 10px;
+    }
+
+    .title-features::after {
+        left: 80%;
+        margin-right: 10px;
+    }
+    /* ! CONTACT BAŞLIKLAR */
+    /* ? başlık 1 */
+
+    .title-touch {
+        position: relative;
+        color: #fe980f;
+    }
+
+    .title-touch::before,
+    .title-touch::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 25%;
+        border-bottom: 2px solid #f0f0ea;
+    }
+
+    .title-touch::before {
+        right: 71%;
+        margin-right: 10px;
+    }
+
+    .title-touch::after {
+        left: 74%;
+        margin-right: 10px;
+    }
+
+    /* ? başlık 3 */
+    .title-social {
+
+        color: #fe980f;
+        margin: 0 auto 0 auto;
+        position: relative;
+        left:11%;
+
+    }
+
+    .title-social::before,
+    .title-social::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 20%;
+        border-bottom: 2px solid #f0f0ea;
+    
+    }
+
+    .title-social::before {
+        right:90% ;
+        margin-right: 10px;
+    }
+
+    .title-social::after {
+
+        left: 85%;
+        margin-right: 17px;
+    }
+
+    .social ul  li
+    {
+    margin-left: 10%;
+    }
+    .social ul  li:first-child
+    {
+    margin-left: -35%;
+    }
+    /* ! shopping cart */
+    .card-button-2  .update
+    {
+        width: 80%;
+        position: relative;
+        margin-bottom: 10px; 
+    }
+    .card-button-2  .check_out
+    {
+        width: 80%;
+        position: relative;
+        margin-bottom: 10px; 
+    }
+    .card-button-3  .update
+    {
+        width: 85%;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .card-button-3  .check_out
+    {
+        width: 85%;
+        position: relative;
+        margin-bottom: 10px;
+    }      
+    /* ! Wishlist reklam-2  */
+
+    .reklam-2-dıs img
+    {
+        margin: auto 0px 30px 0px;
+    }
+    /* ? footer-1 */
+    .footer-text p
+    {
+        text-align: center;
+    }
+
+    .images .row .images-1 .images-1-1
+    {
+        padding-inline-end:10px;
+    }
+    .images .row .images-2 .images-2-1
+    {
+        padding-inline-end:10px;
+    }
+    .footer-2 .footer-2-text .footer-2-cols .input-group  input
+    {
+        margin: 0px 0px 0px 25px;
+        display: table;
+    }
+    .footer-2 .footer-2-text .footer-2-cols .input-group  input::placeholder
+    {
+    font-size:12px ;
+    }
+    .footer-2 .footer-2-text .footer-2-cols .input-group  p
+    {
+    text-align: center;
+    }
+    .footer-2 .footer-2-text .footer-2-cols .input-group input
+    {
+        width: 60%;
+    }
+
+   /* ? footter son */
+   .footer-bottom .container .row .footer-text-bottom-1 .f-left
+   {
+      text-align: center;
+   } 
+   
+   .footer-bottom .container .row .footer-text-bottom-2  p.f-right
+   {
+    margin: 20px 70px 20px auto;
+    
+   } 
+} 
